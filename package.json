@@ -1,0 +1,41 @@
+{
+  "name": "md-shell",
+  "version": "1.0.10",
+  "description": "vuepress-theme-md shell",
+  "main": "index.js",
+  "repository": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vuepress",
+    "vuepress-theme",
+    "md",
+    "vuepress-shell",
+    "ci"
+  ],
+  "files": [
+    "index.js",
+    "md.js",
+    "frontmatter.yml"
+  ],
+  "bin": {
+    "md": "./index.js"
+  },
+  "author": "huchaoqun",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.9.0",
+    "cross-spawn": "^6.0.5",
+    "envinfo": "3.4.2",
+    "fs": "0.0.1-security",
+    "fs-extra": "^5.0.0",
+    "ora": "^2.0.0",
+    "semver": "^5.5.0",
+    "shelljs": "^0.8.1",
+    "vuepress": "^0.7.1",
+    "yamljs": "^0.3.0",
+    "yargs": "^11.0.0"
+  }
+}
