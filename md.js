@@ -32,8 +32,8 @@ let action
 
 const program = new commander.Command(packageJson.name)
     .version(packageJson.version)
-    .arguments('<yubisaki action>')
-    .usage(`${chalk.green('<yubisaki action>')}`)
+    .arguments('<md action>')
+    .usage(`${chalk.green('<md action>')}`)
     .action(name => {
         action = name
     })
@@ -43,20 +43,20 @@ const program = new commander.Command(packageJson.name)
     .option('-r --remote <repository>', 'the repo address')
     .allowUnknownOption()
     .on('--help', () => {
-        console.log(`${chalk.cyan('yubisaki')} ${chalk.green('deploy --user <github user> --path <vuepress docs path> --remote <github repository address>')}`)
+        console.log(`${chalk.cyan('md')} ${chalk.green('deploy --user <github user> --path <vuepress docs path> --remote <github repository address>')}`)
         console.log()
-        console.log(`${chalk.cyan('yubisaki')} ${chalk.green('post --path <article path>')}`)
+        console.log(`${chalk.cyan('md')} ${chalk.green('post --path <article path>')}`)
     })
     .parse(process.argv)
 
 if(typeof action === 'undefined') {
-    console.log(`${chalk.cyan('yubisaki')} ${chalk.green('your action')}`)
+    console.log(`${chalk.cyan('md')} ${chalk.green('your action')}`)
     console.log()
     console.log('For example:')
-    console.log(`${chalk.cyan('yubisaki')} ${chalk.green('deploy <user>')}`)
+    console.log(`${chalk.cyan('md')} ${chalk.green('deploy <user>')}`)
     console.log()
     console.log(
-        `Run ${chalk.cyan(`${'yubisaki'} --help`)} to see all options.`
+        `Run ${chalk.cyan(`${'md'} --help`)} to see all options.`
     )
     process.exit(1)
 }

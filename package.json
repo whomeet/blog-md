@@ -10,19 +10,19 @@
   "keywords": [
     "vuepress",
     "vuepress-theme",
-    "yubisaki",
+    "md",
     "vuepress-shell",
     "ci"
   ],
   "files": [
     "index.js",
-    "yubisaki.js",
+    "md.js",
     "frontmatter.yml"
   ],
   "bin": {
-    "yubisaki": "./index.js"
+    "md": "./index.js"
   },
-  "author": "wuwaki",
+  "author": "huchaoqun",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.3.2",
