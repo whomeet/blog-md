@@ -1,28 +1,28 @@
 {
-  "name": "md-shell",
+  "name": "yubisaki-shell",
   "version": "1.0.10",
-  "description": "vuepress-theme-md shell",
+  "description": "vuepress-theme-yubisaki shell",
   "main": "index.js",
-  "repository": "",
+  "repository": "https://github.com/Bloss/yubisaki-shell",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "vuepress",
     "vuepress-theme",
-    "md",
+    "yubisaki",
     "vuepress-shell",
     "ci"
   ],
   "files": [
     "index.js",
-    "md.js",
+    "yubisaki.js",
     "frontmatter.yml"
   ],
   "bin": {
-    "md": "./index.js"
+    "yubisaki": "./index.js"
   },
-  "author": "huchaoqun",
+  "author": "wuwaki",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.3.2",

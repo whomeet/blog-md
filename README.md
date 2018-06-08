@@ -1,17 +1,17 @@
-# md-shell
+# yubisaki-shell
 
 ## USAGE
 
 ```bash
-yarn global add md-shell
+yarn global add yubisaki-shell
 
 # deploy
-md deploy -u <github userName> -p <vuepress docs dir> -r <github repository address>
+yubisaki deploy -u <github userName> -p <vuepress docs dir> -r <github repository address>
 # example
-md deploy -u blog -p docs -r blog.github.io
+yubisaki deploy -u bloss -p docs -r bloss.github.io
 
 # new post article
-md post -p <file path> --page <filename>
+yubisaki post -p <file path> --page <filename>
 # example
-md post -p docs/hello --page index.md
+yubisaki post -p docs/hello --page index.md
 ```
