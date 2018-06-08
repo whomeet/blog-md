@@ -1,9 +1,9 @@
 {
-  "name": "yubisaki-shell",
+  "name": "blog-md",
   "version": "1.0.10",
-  "description": "vuepress-theme-yubisaki shell",
+  "description": "vuepress-theme-blog-md",
   "main": "index.js",
-  "repository": "https://github.com/Bloss/yubisaki-shell",
+  "repository": "https://github.com/Bloss/blog-md",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
